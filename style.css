@@ -1,0 +1,115 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: SaddleBrown;
+}
+
+body {
+
+    background-color: ivory;
+    width: 80vw;
+    margin: 10vw auto;
+}
+
+img {
+    width: 20vw;
+    height: 17vw;
+    display: block;
+    margin: 0 auto;
+
+}
+
+h1 {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 0;
+    padding-top: 2vw;
+    padding-bottom: 0;
+
+
+}
+
+header>p {
+    text-align: center;
+
+}
+
+header {
+    border-bottom: 0.2em solid brown;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vw;
+
+}
+
+nav a {
+    text-decoration: underline;
+    color: brown;
+    font-weight: bold;
+    font-size: 4.59vw;
+}
+
+#home p {
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 4vw;
+    border: 1px solid brown;
+}
+
+.item p {
+    margin-bottom: 2px;
+    /* Reduce gap between p elements */
+    margin-top: 2px;
+    /* Optional: also reduce top margin */
+}
+
+
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#coffee,
+#snacks {
+    border-bottom: 4px double;
+    padding-bottom: 4vh;
+
+}
+
+#snacks {
+    margin-bottom: 3vh;
+}
+
+table {
+    text-align: center;
+    margin:0 auto ;
+    padding:2em auto;
+    border:2px solid;
+    
+}
+
+tbody {
+    padding-top: 1em;
+    border: 2px solid;
+}
+
+#fast-menu p {
+    text-align: center;
+}
+th,td{border-right: 2px solid;
+border-bottom: 2px solid;}
+#fast-menu{padding-bottom: 2em;}
