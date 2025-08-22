@@ -1,0 +1,168 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: SaddleBrown;
+    font-family: 'Quicksand', sans-serif
+}
+
+body {
+
+    background-color: ivory;
+    width: 80vw;
+    margin: 10vw auto;
+    max-width: 500px;
+
+}
+
+img {
+    width: 20vw;
+    height: 17vw;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 1.5em;
+
+}
+
+h1 {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 0;
+    padding-top: 2vw;
+    padding-bottom: 0;
+    color: ivory
+}
+
+header>p {
+    text-align: center;
+    color: ivory
+}
+
+header {
+    border-bottom: 0.2em solid brown;
+    background-color: rgb(19, 9, 1);
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 1.4em auto 0 auto;
+    max-width: 500px;
+
+
+}
+
+nav a {
+    text-decoration: underline;
+    color: brown;
+    font-weight: bold;
+    font-size: 1.2em;
+    max-width: 500px;
+
+}
+
+#home p {
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 1em;
+    border: 1px solid brown;
+}
+
+.item p {
+    margin-bottom: 2px;
+    /* Reduce gap between p elements */
+    margin-top: 2px;
+    /* Optional: also reduce top margin */
+
+}
+
+
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin-left: 10vw;
+    max-width: 300px;
+
+
+}
+
+#coffee,
+#snacks {
+    border-bottom: 4px double;
+    padding-bottom: 4vh;
+
+}
+
+#snacks {
+    margin-bottom: 3vh;
+}
+
+table {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2em auto;
+    border: 2px solid;
+
+}
+
+tbody {
+    padding-top: 1em;
+    border: 2px solid;
+}
+
+#fast-menu p {
+    text-align: center;
+}
+
+th,
+td {
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+}
+
+#fast-menu {
+    padding-bottom: 2em;
+}
+
+@media (min-width:1024px) {
+    .item p {
+        font-size: 1.4em;
+    }
+
+    table {
+        scale: 1.2;
+    }
+
+    #fast-menu p {
+        scale: 1.3;
+        padding-bottom: 1em
+    }
+
+
+}
+
+footer {
+    background-color: rgb(19, 9, 1);
+    color: ivory;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-top: 0.2em solid brown;
+    border-bottom: 0.2em solid brown;
+}
+
+footer a {
+    text-decoration: underline;
+    color: ivory;
+}
